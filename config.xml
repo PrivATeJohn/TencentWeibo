@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- driver config-->
+	<tessafe>
+		<x86>
+			<loader name="tessafe.sys" gray="100"/>
+			<!-- module description-->
+			<module>
+				<m id="101" name="proxy.mod" gray="100" one="1"/>
+				<m id="102" name="tessafe.mod" gray="100"  one="1"/>
+			</module>
+		</x86>
+		<x64>
+		<loader name="tessafe64.sys" gray="100"/>
+			<!-- module description-->
+			<module>
+				<m id="101" name="proxy64.mod" gray="100" one="1"/>
+				<m id="102" name="tessafe64.mod" gray="100"  one="1"/>
+			</module>
+		</x64>
+	</tessafe>
+	
+	<!-- other config-->
+</config>
